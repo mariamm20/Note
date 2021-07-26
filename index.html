@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Diary Note
+    </title>
+
+    <script src="https://kit.fontawesome.com/5108fa3256.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <!--Header part-->
+            <header>
+                <div>
+                    <h1>Diary note</h1>
+                    <i class="far fa-dot-circle fa-2x to-right" id="btn" title="Turn your mode"
+                        onclick="turnMode()"></i>
+                </div>
+                <p>Welcome User, Enjoy your <span id="day"></span>.</p>
+            </header>
+            <!--Add the task -->
+            <div class="add-task">
+                <input type="text" id="task-content" placeholder="Write a task" required />
+                <span title="Add" onclick="add()">+</span>
+            </div>
+
+            <!--Added task-->
+            <div id="added-task">
+                <p id="no-tasks">No Tasks yet!</p>
+            </div>
+        </div>
+
+        <!--icon at the bottom-->
+        <div class="img">
+            <img src="img/sheep.png" alt="Sheep" title="Happy Eid" />
+        </div>
+    </section>
+
+    <!--Scripts part-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

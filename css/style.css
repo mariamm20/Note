@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+*{
+    box-sizing: content-box;
+    font-family: 'Rubik', sans-serif;
+}
+body
+{
+    background-color: #062852 ;
+    color: #062852;
+}
+
+/*For mode change*/
+.darkmode 
+{
+    background-color: #FFF6F0;
+}
+
+
+
+section
+{
+    height: 35em;
+}
+.container
+{
+    background-color: #FFF6F0;
+    color: #062852;
+    padding: 3em;
+    width: 27em;
+    line-height: 2.5em;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:9em;
+    border: 1px solid #062852;
+    box-shadow: 1px 1px 5px #062852;
+    
+}
+.container h1
+{
+    font-size: 2em;
+    display: inline;
+}
+.container p
+{
+    font-size: 1.4em;
+}
+.to-right
+{
+    float: right;
+    cursor: pointer;
+}
+.img
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1em;
+}
+.fa-dot-circle:hover
+{
+    background-color: #062852;
+    color: #FFF6F0;
+    border-radius: 50%;
+}
+.add-task
+{
+    position: relative;
+}
+.add-task input
+{
+    width: 84.5%;
+    padding: 1em;
+    border: none;
+    border-bottom: 1px solid #062852;
+    outline: none;
+    background-color: #FFF6F0;
+}
+.add-task span
+{
+    background-color: #062852;
+    color: #FFF6F0;
+    font-size: 2em;
+    padding:1px 10px;
+    position: absolute;
+    top: 2px;
+    
+}
+.add-task span:hover
+{
+    border-radius: 50%;
+    transition: .2s;
+    cursor: pointer;
+}
+.add-task span:active
+{
+    transform: rotate(180deg);
+    transition: .3s;
+}
+.del-icon
+{
+    color: red;
+    padding-right: 9px;
+}
+
+.task-done
+{
+    width: 1.4em;
+    height: 1.4em;
+    position:relative;
+    top:3px;
+}
+.task-done:checked + label
+{
+    text-decoration:line-through;
+}
+#added-task
+{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 115px;
+}
+::-webkit-scrollbar
+{
+    width: 1px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: #062852;
+}
+label
+{
+    margin-left: 5px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+
+.colorbtn
+{
+    background-color:#062852;
+    color: #FFF6F0;
+    border-radius: 50%; 
+}
+.colorbtn:hover
+{
+    background-color: #FFF6F0;
+    color: #062852;
+}
+
